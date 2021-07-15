@@ -1,4 +1,2 @@
-
-FROM nginx:alpine
-COPY static /usr/share/nginx/html
-LABEL maintainer = "usha.mandya@docker.com"
+cd /var/www/html/guest/demo2/SimpleWhaleDemo/
+git pull origin master
