@@ -1,3 +1,5 @@
 FROM nginx:alpine
-COPY static /usr/share/nginx/html
+#Thiết lập thư mục hiện tại
+WORKDIR /var/www/html/guest/demo2/SimpleWhaleDemo/
+ADD . /var/www/html/guest/demo2/SimpleWhaleDemo/
 LABEL maintainer = "ninhnv@codluck.com"
