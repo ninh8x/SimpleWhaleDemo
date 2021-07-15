@@ -1,2 +1,3 @@
-cd /var/www/html/guest/demo2/SimpleWhaleDemo/
-git pull origin master
+FROM apache:apache
+COPY static /usr/share/nginx/html
+LABEL maintainer = "ninhnv@codluck.com"
